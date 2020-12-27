@@ -33,7 +33,10 @@ public class HooksDemoSteps {
 	  @After public void tearDown() { System.out.println("Im inside");
 	  driver.close(); driver.quit(); }
 	  
-	  @Given("user is on the page") public void user_is_on_the_page() { }
+	  @Given("user is on the page") public void user_is_on_the_page() { 
+		  
+		  System.out.println("Hello Everyone");
+	  }
 	  
 	  @When("user enters valid username and password") public void
 	  user_enters_valid_username_and_password() { }
