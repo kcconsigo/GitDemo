@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-11T13:11:56.886Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7545000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.browserSetup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "check-login-functionality;",
+        "after": [
+          {
+            "result": {
+              "duration": 754000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the page",
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.user_is_on_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.user_enters_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is navigated to the web page",
+            "match": {
+              "location": "StepsForHooks.HooksDemoSteps.user_is_navigated_to_the_web_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check login functionality",
+    "description": "",
+    "id": "check-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/HooksDemo/HooksDemo.feature",
+    "tags": []
+  }
+]
