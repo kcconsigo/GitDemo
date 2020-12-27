@@ -36,6 +36,9 @@ public class HooksDemoSteps {
 	  @Given("user is on the page") public void user_is_on_the_page() { 
 		  
 		  System.out.println("Hello Everyone");
+		  System.out.println("Hello Everyone");
+		  System.out.println("Hello Everyone");
+		  System.out.println("Hello Everyone");
 	  }
 	  
 	  @When("user enters valid username and password") public void
